@@ -4,7 +4,7 @@ from datetime import datetime
 import re
 
 app = FastAPI()
-LOGIN = "your_login_here"  # ← замените на ваш логин
+LOGIN = "1147329"  # ← замените на ваш логин
 
 @app.get("/{date_path}")
 async def get_date(date_path: str):
